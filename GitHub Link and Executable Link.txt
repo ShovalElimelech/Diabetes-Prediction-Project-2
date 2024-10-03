@@ -1,0 +1,5 @@
+GitHub Link:
+https://github.com/ShovalElimelech/Diabetes-Prediction-Project-2.git
+
+Executable Link:
+https://diabetes-prediction-project-s.streamlit.app
