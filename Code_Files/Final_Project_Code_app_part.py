@@ -14,7 +14,7 @@ from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 import base64
 
 # הגדרת תיקיית הפלט
-output_dir = 'output'
+output_dir = 'Code_Files/output'
 
 # טעינת המודל והסקלר
 with open(os.path.join(output_dir, 'best_model.pkl'), 'rb') as f:
@@ -38,7 +38,7 @@ results_csv_path = os.path.join(output_dir, 'model_performance.csv')
 model_results = pd.read_csv(results_csv_path)
 
 # טעינת הדאטהסט המלא
-file_path = 'DataSet.xlsx'
+file_path = 'Code_Files/DataSet.xlsx'
 data = pd.read_excel(file_path)
 
 # הגדרת תצורת הדף
@@ -77,7 +77,7 @@ def add_logo(png_file):
     st.markdown(logo_css, unsafe_allow_html=True)
 
 # הוספת לוגו לסרגל הצדדי
-add_logo('Diabetes Image.png')
+add_logo('Code_Files/Diabetes Image.png')
 
 # ניווט בסרגל הצדדי
 st.sidebar.title("ניווט")
