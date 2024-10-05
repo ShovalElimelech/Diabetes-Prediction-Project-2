@@ -9,7 +9,9 @@ We will do all of this in a terminal window that we open inside the *primary pro
 
 0.1. We will create a virtual Python workspace for the project.
 >>> python -m venv venv
+
 >>> source venv/bin/activate (#note: for Linux/MacOS)
+
 >>> venv\Scripts\activate (#note: for Windows)
 
 0.2. We will download the required Python libraries into the virtual work environment that we created in the previous step.
