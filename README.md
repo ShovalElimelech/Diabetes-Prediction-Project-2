@@ -5,6 +5,7 @@ In order to run the diabetes prediction application, which is based on deep lear
 
 0. Preliminary preparations:
 *At every stage, in order to do this in the most correct way for our computer's operating system, we will use Google/ChatGPT.
+
 We will do all of this in a terminal window that we open inside the *primary project folder and execute the following commands:
 
 0.1. We will create a virtual Python workspace for the project.
